@@ -1,0 +1,54 @@
+/* Configuração do background e dimensões básicas do body */
+body {
+    /* Define a imagem de fundo e suas propriedades */
+    background-image: url('../images/background-v1.png');
+    background-position: center; /* Centraliza a imagem */
+    /* background-repeat: no-repeat; */ /* Evita repetição */
+    background-size: cover; /* Cobre toda a área */
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+    body {
+        background-image: url('../images/background-v1.png'); /* Imagem menor para dispositivos móveis */
+    }
+}
+
+/* Estilos para garantir altura total e footer fixo */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Wrapper principal para conteúdo */
+.page-wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Container principal que cresce para ocupar espaço disponível */
+.main-content {
+    flex: 1 0 auto; /* Grow, no shrink, auto basis */
+    padding: 20px 0; /* Espaçamento vertical */
+}
+
+/* Estilo do footer */
+footer {
+    /* background-color: #f2f2f2; */
+    padding: 5px;
+    flex-shrink: 0; /* Impede que o footer encolha */
+    width: 100%;
+}
+
+/* Garante que as imagens mantenham proporção */
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+/* Adiciona um pouco de padding nas colunas para melhor visualização */
+[class*="col-"] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

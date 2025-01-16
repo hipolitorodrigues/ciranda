@@ -1,0 +1,100 @@
+/* Configuração do background e dimensões básicas do body */
+body {
+    /* Define a imagem de fundo e suas propriedades */
+    background-image: url('../images/background-v1.png');
+    background-attachment: scroll; /* Permite rolagem do fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição */
+    background-size: cover; /* Cobre toda a área */
+    
+    /* Resetando margens e definindo dimensões */
+    margin: 0;
+    padding: 0;
+    width: 100vw; /* Largura total da viewport */
+    height: 100vh; /* Altura total da viewport */
+    background-color: #f3f4f6;
+    overflow: hidden; /* Previne barras de rolagem */
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+    body {
+        background-image: url('../images/background-v1.png'); /* Imagem menor para dispositivos móveis */
+    }
+}
+
+/* Container principal que envolve todo o conteúdo */
+.page-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Organiza elementos verticalmente */
+    position: relative;
+}
+
+/* Estilo comum para os containers de imagem superior e inferior */
+.top-image-container, .bottom-image-container {
+    flex: 0 0 60px; /* Altura fixa de 60px, não cresce nem encolhe */
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 5px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: transparent;
+}
+
+/* Estilo para as imagens nos containers superior e inferior */
+.top-image-container img, .bottom-image-container img {
+    height: 50px; /* Altura fixa para as imagens */
+    width: auto; /* Mantém proporção */
+    object-fit: contain; /* Mantém proporção da imagem */
+}
+
+/* Container principal que abriga o círculo de ícones */
+.container {
+    flex: 1; /* Ocupa o espaço restante */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 0; /* Permite que o container encolha se necessário */
+}
+
+/* Container que mantém o círculo de ícones */
+.circle-container {
+    position: relative;
+    width: min(80vh, 90vw); /* Usa o menor valor entre 80vh e 90vw */
+    height: min(80vh, 90vw);
+    margin: auto;
+}
+
+/* Estilo para cada item (ícone) no círculo */
+.link-item {
+    position: absolute; /* Permite posicionamento preciso */
+    transition: all 0.3s ease-out; /* Animação suave */
+}
+
+/* Estilo para as imagens dentro dos itens do círculo */
+.link-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px; /* Bordas arredondadas */
+    transition: all 0.3s ease-out;
+}
+
+/* Efeito hover nos itens do círculo */
+.link-item:hover {
+    z-index: 10; /* Traz o item para frente */
+    transform: scale(1.25); /* Aumenta o tamanho em 25% */
+}
+
+/* Junto com o JS: "Se o link não tiver URL, marque-o como desativado" */
+.link-item.disabled {
+    pointer-events: none;
+    cursor: default !important;
+}

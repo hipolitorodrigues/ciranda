@@ -1,4 +1,3 @@
-```markdown
 # Ciranda
 
 Ciranda é uma aplicação web simples e interativa, desenvolvida para facilitar o acesso a sistemas web.

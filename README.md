@@ -2,6 +2,8 @@
 
 Ciranda é uma aplicação web simples e interativa, desenvolvida para facilitar o acesso a sistemas web.
 
+![alt text](https://github.com/hipolitorodrigues/ciranda/blob/5e354c1b1ad0bf8a30bb20acd324818beef8f86f/assets/images/sampling.png)
+
 ## Descrição
 
 A interface do Ciranda organiza ícones representativos em dois grupos dispostos como círculos concêntricos. Cada ícone fornece um link direto para ferramentas e sistemas essenciais, otimizando a navegação, além uma uma barra suberior e outra inferior para o mesmo propósito.

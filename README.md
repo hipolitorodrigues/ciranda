@@ -69,12 +69,13 @@ Para adicionar ou modificar os ícones e links:
 
 ## Desenvolvedor
 
-- **Nome**: Hipolito Rodrigues
-- **Email**: [hipolitorodrigues@gmail.com](mailto:hipolitorodrigues@gmail.com)
+- **Desenvolvedor**: Hipolito Rodrigues
+- **Data de Criação**: 11/11/2024
+- **Última Atualização**: 16/01/2025
+- **Versão Atual**: 1.2
 
 ---
 
-**Data de Criação**: 11/11/2024  
-**Última Atualização**: 16/01/2025  
-**Versão**: 1.2
-```
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Isso significa que você pode usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do software, desde que mantenha o aviso de copyright original e a licença incluídos em todas as cópias ou partes substanciais do software.

@@ -1,81 +1,91 @@
+<div align="center">
+   <img height="30" width="40" src="https://github.com/hipolitorodrigues/assets-for-github/blob/985021e61af3982fd9f28be446b106b958f24696/images/01/img-readme-ico.svg">
+   <a href="./README.md">
+      <img height="30" width="120" src="https://github.com/hipolitorodrigues/assets-for-github/blob/985021e61af3982fd9f28be446b106b958f24696/images/01/img-readme-en.svg">
+   </a>
+   <a href="./README.pt-BR.md">
+      <img height="30" width="60" src="https://github.com/hipolitorodrigues/assets-for-github/blob/985021e61af3982fd9f28be446b106b958f24696/images/01/img-readme-pt-br.svg">
+   </a>
+</div>
+
 # Ciranda
 
-Ciranda é uma aplicação web simples e interativa, desenvolvida para facilitar o acesso a sistemas web.
+Ciranda is a simple and interactive web application designed to facilitate access to web systems.
 
 ![alt text](https://github.com/hipolitorodrigues/ciranda/blob/5e354c1b1ad0bf8a30bb20acd324818beef8f86f/assets/images/sampling.png)
 
-## Descrição
+## Description
 
-A interface do Ciranda organiza ícones representativos em dois grupos dispostos como círculos concêntricos. Cada ícone fornece um link direto para ferramentas e sistemas essenciais, otimizando a navegação, além uma uma barra suberior e outra inferior para o mesmo propósito.
+The Ciranda interface organizes representative icons into two groups arranged as concentric circles. Each icon provides a direct link to essential tools and systems, optimizing navigation, in addition to a top and bottom bar for the same purpose.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **HTML5**: Estruturação da aplicação.
-- **CSS3**: Estilização e design responsivo.
-- **JavaScript**: Lógica de disposição dinâmica dos ícones e interatividade.
-- **Bootstrap**: Para o grid da página secsecond.html.
+- **HTML5**: Application structuring.
+- **CSS3**: Styling and responsive design.
+- **JavaScript**: Logic for dynamic icon arrangement and interactivity.
+- **Bootstrap**: For the grid in the secsecond.html page.
 
-## Funcionalidades
+## Features
 
-- **Disposição Circular**: Ícones distribuídos em círculos interno e externo.
-- **Design Responsivo**: Layout adaptável para diferentes tamanhos de tela.
-- **Links Diretos**: Acesso rápido a sistemas e ferramentas por meio de ícones clicáveis.
-- **Interatividade**: Efeitos visuais ao passar o mouse sobre os ícones.
+- **Circular Arrangement**: Icons distributed in inner and outer circles.
+- **Responsive Design**: Layout adaptable to different screen sizes.
+- **Direct Links**: Quick access to systems and tools through clickable icons.
+- **Interactivity**: Visual effects when hovering over the icons.
 
-## Como Utilizar
+## How to Use
 
-1. Clone este repositório:
+1. Clone this repository:
    ```bash
    git clone https://github.com/hipolitorodrigues/ciranda.git
    ```
 
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
    ```bash
    cd ciranda
    ```
 
-3. Abra o arquivo `index.html` em um navegador de sua preferência.
+3. Open the `index.html` file in a browser of your choice.
 
-## Estrutura do Projeto
+## Project Structure
 
 ```plaintext
 ciranda/
-├── index.html                      # Arquivo principal da aplicação
+├── index.html                      # Main application file
 ├── assets/
-│   ├── bootstrap/                  # Recursos do Bootstrap
-│   │   ├── bootstrap-icons/        # Ícones do Bootstrap
-│   │   ├── css/                    # Arquivos de estilos do Bootstrap
-│   │   └── js/                     # Scripts do Bootstrap
-│   ├── css/                        # Arquivos de estilos personalizados
-│   ├── images/                     # Imagens do projeto
-│   ├── js/                         # Scripts personalizados
-│   └── pages/                      # Páginas adicionais do projeto
+│   ├── bootstrap/                  # Bootstrap resources
+│   │   ├── bootstrap-icons/        # Bootstrap icons
+│   │   ├── css/                    # Bootstrap style files
+│   │   └── js/                     # Bootstrap scripts
+│   ├── css/                        # Custom style files
+│   ├── images/                     # Project images
+│   ├── js/                         # Custom scripts
+│   └── pages/                      # Additional project pages
 ```
 
-## Pré-requisitos
+## Prerequisites
 
-Certifique-se de que você tem um navegador atualizado para garantir compatibilidade com os recursos modernos usados na aplicação.
+Make sure you have an updated browser to ensure compatibility with the modern features used in the application.
 
-## Personalização
+## Customization
 
-Para adicionar ou modificar os ícones e links:
+To add or modify icons and links:
 
-1. Abra o arquivo `script.js`.
-2. Encontre as configurações em JavaScript para `innerLinks` (círculo interno) e `outerLinks` (círculo externo).
-3. Adicione ou altere os objetos no formato:
+1. Open the `script.js` file.
+2. Find the JavaScript settings for `innerLinks` (inner circle) and `outerLinks` (outer circle).
+3. Add or modify objects in the format:
    ```javascript
-   { id: 'nome-do-icone', url: 'https://link.com', image: 'caminho/para/imagem.png' }
+   { id: 'icon-name', url: 'https://link.com', image: 'path/to/image.png' }
    ```
 
-## Desenvolvedor
+## Developer
 
-- **Desenvolvedor**: Hipolito Rodrigues
-- **Data de Criação**: 11/11/2024
-- **Última Atualização**: 16/01/2025
-- **Versão Atual**: 1.2
+- **Developer**: Hipolito Rodrigues
+- **Creation Date**: 11/11/2024
+- **Last Update**: 01/16/2025
+- **Current Version**: 1.2
 
 ---
 
-## Licença
+## License
 
-Este projeto está licenciado sob a Licença MIT. Isso significa que você pode usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do software, desde que mantenha o aviso de copyright original e a licença incluídos em todas as cópias ou partes substanciais do software.
+This project is licensed under the MIT License. This means you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, as long as you keep the original copyright notice and license included in all copies or substantial portions of the software.

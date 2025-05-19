@@ -37,7 +37,6 @@ body {
     flex: 0 0 60px; /* Altura fixa de 60px, não cresce nem encolhe */
     width: 100%;
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
     padding: 5px;
     box-sizing: border-box;
@@ -45,11 +44,24 @@ body {
     background-color: transparent;
 }
 
+.top-image-container {
+    justify-content: flex-end; /* Alinha o conteúdo ao lado direito */
+    padding-right: 10px; /* Adiciona um espaçamento opcional à direita */
+}
+
+.bottom-image-container {
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
 /* Estilo para as imagens nos containers superior e inferior */
 .top-image-container img, .bottom-image-container img {
     height: 50px; /* Altura fixa para as imagens */
     width: auto; /* Mantém proporção */
     object-fit: contain; /* Mantém proporção da imagem */
+}
+
+.top-image-container img {
+    padding-right: 15px; /* Espaçamento entre as imagens */
 }
 
 /* Container principal que abriga o círculo de ícones */

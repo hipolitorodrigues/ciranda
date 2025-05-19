@@ -40,6 +40,7 @@ class CircularLinks {
         
         // Inicializa o círculo
         this.init();
+        
         // Adiciona listener para redimensionamento da janela
         window.addEventListener('resize', () => this.updateLayout());
     }
@@ -96,10 +97,16 @@ class CircularLinks {
         const hoverSpace = 40;
         
         // Calcula o tamanho do container
+        const containerRect = this.container.getBoundingClientRect();
         const containerSize = Math.min(
+            containerRect.width - (margin * 0 + hoverSpace * 0),
+            containerRect.height - (margin * 0 + hoverSpace * 0)
+        );
+        // ou - Calcula o tamanho do container
+        /* const containerSize = Math.min(
             window.innerWidth - (margin * 2 + hoverSpace * 2),
             window.innerHeight - (margin * 2 + hoverSpace * 2)
-        );
+        ); */
         
         // Define os raios dos círculos
         const outerRadius = (containerSize / 2) * 0.9;

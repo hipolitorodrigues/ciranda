@@ -78,15 +78,15 @@ Para adicionar ou modificar os ícones e links:
    { id: 'nome-do-icone', url: 'https://link.com', image: 'caminho/para/imagem.png' }
    ```
 
-## Desenvolvedor
+## Developer
 
-- **Desenvolvedor**: Hipolito Rodrigues
-- **Data de Criação**: 11/11/2024
-- **Última Atualização**: 16/01/2025
-- **Versão Atual**: 1.2
+- **Developer**: Hipolito Rodrigues
+- **Creation Date**: 2024-11-11
+- **Last Update**: 2025-05-19
+- **Current Version**: 1.3
 
 ---
 
-## Licença
+## License
 
-Este projeto está licenciado sob a Licença MIT. Isso significa que você pode usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do software, desde que mantenha o aviso de copyright original e a licença incluídos em todas as cópias ou partes substanciais do software.
+This project is licensed under the MIT License. This means you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, as long as you keep the original copyright notice and license included in all copies or substantial portions of the software.

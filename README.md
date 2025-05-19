@@ -80,9 +80,9 @@ To add or modify icons and links:
 ## Developer
 
 - **Developer**: Hipolito Rodrigues
-- **Creation Date**: 11/11/2024
-- **Last Update**: 01/16/2025
-- **Current Version**: 1.2
+- **Creation Date**: 2024-11-11
+- **Last Update**: 2025-05-19
+- **Current Version**: 1.3
 
 ---
 
